@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lhyla.databases.MainActivity">
+
+    <EditText
+        android:id="@+id/main_act_film_name_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="film_name" />
+
+    <EditText
+        android:id="@+id/main_act_film_budget_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="film_budget" />
+
+    <EditText
+        android:id="@+id/main_act_film_year_creation_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="film_production_year" />
+
+    <Button
+        android:id="@+id/main_act_create_film_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Film" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get All Records"
+        android:id="@+id/main_act_get_all_records_btn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DROP TABLE"
+        android:id="@+id/main_act_drop_table_btn"/>
+
+    <TextView
+        android:id="@+id/main_act_film_database_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
